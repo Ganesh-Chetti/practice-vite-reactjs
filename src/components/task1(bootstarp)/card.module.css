@@ -1,0 +1,16 @@
+
+.nnn{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    background-color: cadetblue;
+}
+:hover>.textcenter1{
+    background-color: rgb(200, 66, 66);
+}
+:hover>.textcenter2{
+    background-color:rgb(107, 203, 29);
+}
+:hover>.textcenter3{
+    background-color:grey;
+}
