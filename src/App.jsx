@@ -4,7 +4,8 @@
 // import Resnav from './components/task2/resnav';
 // import Cardcreate from "./components/task3(classfakestore)/fakestorecardsclass";
 // import Classresnav from "./components/task3(classfakestore)/resnav";
-import Classcount from "./classcomponet/count"
+// import Classcount from "./classcomponet/count"
+import Todolist from "./classcomponet/todolist/task1"
 
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
     {/* <Resnav/> */}
       {/* <CreateCard/> */}
       {/* <Cardcreate /> */}
-      <Classcount />
+      {/* <Classcount /> */}
+      <Todolist/>
     </>
   )
 }
