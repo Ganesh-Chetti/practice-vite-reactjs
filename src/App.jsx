@@ -7,7 +7,8 @@
 // import Classcount from "./classcomponet/count"
 // import Todolist from "./classcomponet/todolist/task1"
 // import Todo from "./functional(Hooks)/todolist"
-import Fake from "./functional(Hooks)/fetchapi"
+// import Fake from "./functional(Hooks)/fetchapi"
+import Weather from "./fetchapiwithoutuseeffect/weatherapi"
 
 function App() {
   
@@ -20,7 +21,8 @@ function App() {
       {/* <Classcount /> */}
       {/* <Todolist/> */}
       {/* <Todo/> */}
-      <Fake/>
+      {/* <Fake/> */}
+      <Weather/>
     </>
   )
 }
